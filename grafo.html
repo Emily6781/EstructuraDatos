@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grafo</title>
+<style>
+    #lienzo {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        border: 1px solid black;
+    }
+    .vertice {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 50%;
+        background-color: #3498db;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+</head>
+<body>
+
+<div id="lienzo"><div class='vertice' style='left: 100px; top: 100px;'></div>
+<div class='vertice' style='left: 200px; top: 200px;'></div>
+<div class='vertice' style='left: 300px; top: 300px;'></div>
+<svg style='position: absolute; z-index: -1; stroke:black; stroke-width: 2px;'><line x1='120px' y1='120px'/></svg><svg style='position: absolute; z-index: -1; stroke:black; stroke-width: 2px;'><line x2='210px' y2='210px'/></svg><svg style='position: absolute; z-index: -1; stroke:black; stroke-width: 2px;'><line x1='220px' y1='220px'/></svg><svg style='position: absolute; z-index: -1; stroke:black; stroke-width: 2px;'><line x2='310px' y2='310px'/></svg><svg style='position: absolute; z-index: -1; stroke:black; stroke-width: 2px;'><line x1='320px' y1='320px'/></svg><svg style='position: absolute; z-index: -1; stroke:black; stroke-width: 2px;'><line x2='110px' y2='110px'/></svg></div>
+
+</body>
+</html>
